@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+.container-compact {
+  display: flex;
+  position: relative;
+}
+
+.container-compact video {
+  flex: 1 1 auto;
+  background-color: black;
+  width: 100%;
+}
+
+.container-compact .overlay span {
+  flex: 1 1 auto;
+  width: 100%;
+  /*background: rgba(0, 0, 0, 0.1);*/
+  color: rgba(240, 240, 240, 1);
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+  padding: 3px 0px;
+  position: absolute;
+  bottom: 3.5em;
+}
+
+.container-buttons {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  border-width: 1px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-buttons button {
+  flex: 1 1 auto;
+  margin: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
