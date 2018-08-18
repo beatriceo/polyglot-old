@@ -1,7 +1,7 @@
 # polyglot
 
 Instructions
-1. Run `npm install` in application folder
+1. Run `npm install` in the application folder
 2. Go to `localhost:1337` in your browser, click `cancel` at the prompt.
 3. Click the `Start` button.
 4. Copy the room id.
