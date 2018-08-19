@@ -8,7 +8,8 @@ var socketIO = require('socket.io');
 var fileServer = new(nodeStatic.Server)();
 var app = http.createServer((request, response) => {
   fileServer.serve(request, response);
-}).listen(1337);
+}).listen(process.env.PORT || 1337);
+console.log("listening on port: ", process.env.PORT);
 
 var io = socketIO.listen(app);
 io.sockets.on('connection', (socket) => {

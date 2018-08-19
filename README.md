@@ -2,7 +2,7 @@
 
 Instructions
 1. Run `npm install` in the application folder.
-2. Run `node index.js`.
+2. Run `node index.js` in the application folder.
 3. Go to `localhost:1337` in your browser, click `cancel` at the prompt.
 4. Click the `Start` button.
 5. Copy the room id.
